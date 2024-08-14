@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300|Julius+Sans+One);
+
+html {
+    margin:             0px;
+    padding:            0px;
+}
+
+body {
+    background:         url("background.jpg");
+    margin:             0px;
+    padding:            0px;
+}
+
+#decoration {
+    background:         linear-gradient(#2287cd 0%, #2171b5 100%);
+    display:            block;
+    height:             60px;
+    position:           absolute;
+    top:                20px;
+    width:              100%;
+    z-index:            -1;
+}
+
+#wrapper {
+    /*border:             1px dashed #ccc;*/
+    display:            block;
+    margin:             20px auto 40px auto;
+    min-height:         500px;
+    width:              800px;
+    font-family:        'Open Sans';
+}
+
+#title h1 {
+    margin:             40px 0 20px 0;
+    font-weight:        bold;
+}
+
+#content {
+    text-align:         justify;
+}
+
+#navigation {
+    /*border-collapse:    collapse;*/
+    border-left:       1px solid #2287cd;
+    border-right:        1px solid #2262a7;
+    display:            table;
+    margin:             0 auto;
+    table-layout:       fixed;
+    width:              100%;
+}
+
+#navigation > a {
+    /*background-color:   #5890ff;*/
+    /*border:             1px solid #22a2e9;*/
+    border-right:       1px solid #2287cd;
+    border-left:        1px solid #2262a7;
+    box-sizing:         border-box;
+    color:              #fff;
+    display:            table-cell;
+    font-variant:       small-caps;
+    height:             60px;
+    text-align:         center;
+    text-decoration:    none;
+    vertical-align:     middle;
+}
+
+#navigation > a:hover {
+    background:         linear-gradient(#23a1e9 0%, #2287cd 100%);
+}
+
+a {
+    color: #2D4FC3;
+}

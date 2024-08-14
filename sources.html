@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Analyzing Password-Strength Meters - Sources</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div id="decoration"></div>
+
+<div id="wrapper">
+
+    <div id="navigation">
+        <a href="./index.html">Main</a>
+        <a href="./paper.html">Paper</a>
+        <a href="https://madiba.encs.concordia.ca/software/passwordchecker/">Tool</a>
+        <a href="./sources.html">Sources</a>
+    </div>
+
+    <div id="title">
+        <h1>Analyzing Password-Strength Meters - Sources</h1>
+    </div>
+
+    <div id ="content">
+        <p>Dictionaries involved in this project include:
+        <ul>
+            <li>Top 500 Worst Passwords of All Time (2005)</li>
+            <li>Conficker worm embedded dictionary (2008)</li>
+            <li>John the Ripper default dictionary (2011)</li>
+            <li>Cain & Abel default dictionary (2005)</li>
+            <li>phpBB.com database leak (2009)</li>
+            <li>RockYou.com database leak (2009)</li>
+        </ul>
+        plus additional created dictionaries based on the above ones, a Top 10k and a 37k-word version of MySpace phishing attack leak, and using mangling rules and leet transformations.</p>
+
+        <p>All dictionaries involved are available for download: <a href="./data/dictionaries.zip">dictionaries.zip</a> (15.3MiB).</p>
+
+        <p>The results of our tests against each checker are also available here: <a href="./data/checkers_dictionaries_results.7z">checkers_dictionaries_results.7z</a> (203MiB) including aggregated results that allow for the generation of password distribution graphs (updated to include results for the extended work in my thesis).</p>
+
+        <p>An illustration of Google checker's hysteresis phenomenon can be found in <a href="./data/google-checker.avi">this video</a>.</p>
+
+        <p>Scripts used to automate the tests: <a href="./data/test-automation.zip">test-automation.zip</a>.</p>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
